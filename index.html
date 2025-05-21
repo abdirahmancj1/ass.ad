@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xisaabiyaha BMI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="main-background">
+    <div class="container">
+        <h1>Xisaabiyaha BMI</h1>
+        <p>Ogow caafimaadkaaga adigoo cabiraya miisaankaaga iyo dhererkaaga.</p>
+
+        <img src="ImageForArticle_22595_16539923345862310.jpg" alt="BMI Image" class="bmi-image">
+        
+
+        <div class="form">
+            <label for="weight">Miisaanka (kg):</label>
+            <input type="number" id="weight" step="0.1" placeholder="Geli miisaankaaga">
+
+            <label for="height">Dhererka (cm):</label>
+            <input type="number" id="height" step="0.1" placeholder="Geli dhererkaaga">
+
+            <button onclick="calculateBMI()">Xisaabi BMI</button>
+            <p id="bmiResult"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

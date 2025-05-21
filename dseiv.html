@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="div1"></div>
+        <script>
+            var h1element =document.createElement("h1");
+            h1element.id ="header1";
+
+
+            var h1text = document.createTextNode("Miisaankaagu waa xad dhaaf");
+            h1element.appendChild(h1text);
+
+            var parentDiv = document.getElementById("div1");
+            parentDiv.appendChild(h1element);
+        </script>
+    
+    </body>
+</html>
